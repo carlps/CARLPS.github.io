@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carlos Torres?</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Carlos Torres is a software engineer who enjoys working with Python and eating tacos.">
+	<meta name="author" content="Carlos Torres">
+	<link type="text/css" rel="stylesheet" target="_blank" href="css/styles.css"  media="screen,projection"/>
+	<link target="_blank" href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+	<div id="whole-page">
+		<div class="navtop">
+			<div class="headerbar">
+				<div class="headerlinks">
+					<a class="page-title" target="_blank" href="/">About Me</a>
+					<span id="copywrite-header">© 2017 Carlos Torres</span>
+				</div>
+			</div>
+		</div>
+		<main>
+			<div class="page-body">
+				<h1>Carlos Torres</h1>
+				<div id="intro-div">
+					<img class="author-img" src="media/jpg/carlos1.jpg" alt="what is he looking at?">
+					<p id="intro-p">
+						I am a software engineer currently based in Washington DC. I like playing with data, building web apps, eating dinner, and so much more. 
+					</p>
+					<div class="links">
+						<a target="_blank" href="https://github.com/carlps">github</a>
+						-
+						<a target="_blank" href="https://drive.google.com/file/d/0B-7mWFsEntpDcXM5cjZ3aTlrX1U/view">resume</a>
+						-
+						<a target="_blank" href="https://www.linkedin.com/in/carlostorresnm/">linkedIn</a>
+					</div>
+				</div>
+				<div class="content-container" id="skills">
+					<h2 class="box-header">Skills</h2>
+					<div class="col1">
+						<ul class="top-level-list">
+							<li>Languages</li>
+							<ul class="inner-list">
+								<li>Python</li>
+								<li>SQL</li>
+								<li>Bash and Batch</li>
+								<li>Java (prior experience)</li>
+								<li>C# (prior experience)</li>
+								<br>
+							</ul>
+							<li>Frameworks</li>
+							<ul class="inner-list">
+								<li>Flask</li>
+								<li>SQLAlchemy</li>
+								<li>Informatica</li>
+							</ul>
+						</ul>
+					</div>
+					<div class="col2">
+						<ul class="top-level-list">
+							<li>Databases</li>
+							<ul class="inner-list">
+								<li class="inner-list-item">SQL Server</li>
+								<li class="inner-list-item">SQLite</li>
+								<li class="inner-list-item">Oracle SQL</li>
+								<br><br><br>
+							</ul>
+							<li>Development Tools</li>
+							<ul class="inner-list">
+								<li class="inner-list-item">Git/GitHub</li>
+								<li class="inner-list-item">Travis CI</li>
+								<li class="inner-list-item">Heroku</li>
+							</ul>
+						</ul>
+					</div>
+				</div>
+				<div class="content-container">
+					<h2 class="box-header">Some personal projects</h2>
+					<div class="col1">
+						<h3><a class="h3-link" target="_blank" href="">Resties</a></h3>
+						<p>Resties is a web app for people who love restuarants. Users can create lists of restaurants, document visits, and store notes.</p>
+						<p>Resties is built on Python/<a target="_blank" href="http://flask.pocoo.org/">Flask</a> backend. Restaurant information is pulled from Google Places API. Reactive, Material based frontend is powered by <a target="_blank" href="http://materializecss.com/">Materialize CSS framework</a>.</p>
+						<p>Resties source is deployed on <a target="_blank" href="https://resties.herokuapp.com">Heroku</a>, stored on <a target="_blank" href="https://github.com/carlps/Resties">GitHub</a>, with <a target="_blank" href="https://travis-ci.org/carlps/Resties">Travis CI</a> used to test and deploy.</p>
+						<div class="links">
+							<a target="_blank" href="https://resties.herokuapp.com">site</a>
+							-
+							<a target="_blank" href="https://github.com/carlps/Resties">source</a>
+						</div>
+					</div>
+					<div class="col2">
+						<h3>Bikeshare Data</h3>
+						<p>This is a Python system to pull down data from the Capital Bikeshare REST API, and store it in a local DB. Streaming Change Data Capture is performed on the fact table which is updated at ten second intervals. Dimensions are pulled and compared against target in batch, twice daily.</p>
+						<p>Currently a backend only system, it utilizes SQLAlchemy as an ORM to map the API and DB data to objects. Current enhancements under development are migrating to Postgres, moving from local to AWS.</p>
+						<div class="links">
+							<a target="_blank" href="https://github.com/carlps/bikeshare">source</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
