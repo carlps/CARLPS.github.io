@@ -24,7 +24,7 @@
 				<div id="intro-div">
 					<img class="author-img" src="media/jpg/carlos1.jpg" alt="what is he looking at?">
 					<p id="intro-p">
-						I am a software engineer currently based in Washington DC. I like playing with data, building web apps, eating dinner, and a lot more. 
+						I am a human person originally from Bernalillo, New Mexico, currently based in Washington, DC. I like playing with data, building web apps, eating dinner, and a lot more. 
 					</p>
 					<div class="links">
 						<a target="_blank" href="https://github.com/carlps">github</a>
@@ -68,6 +68,7 @@
 							<li>Databases</li>
 							<ul class="inner-list">
 								<li class="inner-list-item">SQL Server</li>
+								<li class="inner-list-item">PostgreSQL</li>
 								<li class="inner-list-item">SQLite</li>
 								<li class="inner-list-item">Oracle SQL</li>
 								<br><br><br>
@@ -97,7 +98,7 @@
 					<div class="col2">
 						<h3>Bikeshare Data</h3>
 						<p>This is a Python system to pull down data from the Capital Bikeshare REST API, and store it in a local DB. Streaming Change Data Capture is performed on the fact table which is updated at ten second intervals. Dimensions are pulled and compared against target in batch, twice daily.</p>
-						<p>Currently a backend only system, it utilizes SQLAlchemy as an ORM to map the API and DB data to objects. Current enhancements under development are migrating to Postgres, moving from local to AWS.</p>
+						<p>Currently a backend only system, it utilizes SQLAlchemy as an ORM to map the API and DB data to objects. All data is stored in a local Postgres DB. Current enhancements are migrating to AWS and building a front end to visualize the data.</p>
 						<div class="links">
 							<a target="_blank" href="https://github.com/carlps/bikeshare">source</a>
 						</div>
