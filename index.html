@@ -77,6 +77,7 @@
 							<ul class="inner-list">
 								<li class="inner-list-item">Git/GitHub</li>
 								<li class="inner-list-item">Travis CI</li>
+								<li class="inner-list-item2">Amazon Web Services</li>
 								<li class="inner-list-item">Heroku</li>
 							</ul>
 						</ul>
@@ -85,6 +86,14 @@
 				<div class="content-container">
 					<h2 class="box-header">Some personal projects</h2>
 					<div class="col1">
+						<h3>Bikeshare Data</h3>
+						<p>This is a Python system to pull down data from the Capital Bikeshare REST API, and store it in a local DB. Streaming Change Data Capture is performed on the fact table which is updated at ten second intervals. Dimensions are pulled and compared against target in batch, twice daily.</p>
+						<p>Currently a backend only system, it utilizes SQLAlchemy as an ORM to map the API and DB data to objects. All data is stored in a Postgres DB on AWS RDS. Current enhancement in development is a front end to visualize the data.</p>
+						<div class="links">
+							<a target="_blank" href="https://github.com/carlps/bikeshare">source</a>
+						</div>
+					</div>
+					<div class="col2">
 						<h3><a class="h3-link" target="_blank" href="">Resties</a></h3>
 						<p>Resties is a web app for people who love restuarants. Users can create lists of restaurants, document visits, and store notes.</p>
 						<p>Resties is built on Python/<a target="_blank" href="http://flask.pocoo.org/">Flask</a> backend. Restaurant information is pulled from Google Places API. Reactive, Material based frontend is powered by <a target="_blank" href="http://materializecss.com/">Materialize CSS framework</a>.</p>
@@ -93,14 +102,6 @@
 							<a target="_blank" href="https://resties.herokuapp.com">site</a>
 							-
 							<a target="_blank" href="https://github.com/carlps/Resties">source</a>
-						</div>
-					</div>
-					<div class="col2">
-						<h3>Bikeshare Data</h3>
-						<p>This is a Python system to pull down data from the Capital Bikeshare REST API, and store it in a local DB. Streaming Change Data Capture is performed on the fact table which is updated at ten second intervals. Dimensions are pulled and compared against target in batch, twice daily.</p>
-						<p>Currently a backend only system, it utilizes SQLAlchemy as an ORM to map the API and DB data to objects. All data is stored in a local Postgres DB. Current enhancements are migrating to AWS and building a front end to visualize the data.</p>
-						<div class="links">
-							<a target="_blank" href="https://github.com/carlps/bikeshare">source</a>
 						</div>
 					</div>
 				</div>
